@@ -90,7 +90,7 @@ namespace Deolhonoimposto
             }
         }
 
-        public DeOlhoNoImposto ConsultarProduto(string NCM, string valor, string uf, string ex, string descricao, string unidadeMedida)
+        public DeOlhoNoImposto ConsultarProduto(string NCM, string valor, string uf, string ex, string descricao, string unidadeMedida, string gtin)
         {
             DeOlhoNoImposto novo = new DeOlhoNoImposto(cnpj, token);
             try
@@ -98,7 +98,7 @@ namespace Deolhonoimposto
                 string token = "Lvl6gv_CyOrnRp1DtJiy5WmONpVG3SMY31lWuDlGnByriEbPBV39FUVrsnQ1Nhkn";
 
                 string UrlRequisicao = @"https://apidoni.ibpt.org.br/api/v1/produtos?token=" + token;
-                UrlRequisicao += @"&cnpj=03054280000109";
+                UrlRequisicao += @"&cnpj=" + cnpj;
                 UrlRequisicao = UrlRequisicao + @"&codigo=" + NCM;
                 UrlRequisicao = UrlRequisicao + @"&uf=" + uf;
 
@@ -116,9 +116,10 @@ namespace Deolhonoimposto
 
 
                 UrlRequisicao = UrlRequisicao + @"&valor=" + valor.Replace(".", "").Replace(",", ".");
-                UrlRequisicao += @"&gtin=12345678";
 
-
+                if (string.IsNullOrWhiteSpace(gtin))
+                    UrlRequisicao += @"&gtin=12345678";
+                else UrlRequisicao += @"&gtin=" + gtin.Replace(" ", "");
 
                 const string _mediaType = "application/json";
                 const string _charSet = "UTF-8";
@@ -131,11 +132,6 @@ namespace Deolhonoimposto
                 req.Accept = _mediaType;
                 req.Headers.Add(HttpRequestHeader.AcceptCharset, _charSet);
 
-                //Credenciais de Acesso
-                //String header = email + ":" + chaveSeguranca;
-                //String headerBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(header));
-                //req.Headers.Add(HttpRequestHeader.Authorization, "Basic " + headerBase64);
-                //  req.GetRequestStream().Write(data, 0, data.Length);
                 var response = (HttpWebResponse)req.GetResponse();
                 var bodyResposta = response.GetResponseStream();
                 using (var reader = new StreamReader(bodyResposta))
@@ -147,6 +143,7 @@ namespace Deolhonoimposto
             }
             catch (Exception)
             {
+                Console.WriteLine("\nMessage ---\n{0}", ex.Message);
                 return novo;
             }
         }
@@ -177,8 +174,7 @@ namespace Deolhonoimposto
 
                 var req = (HttpWebRequest)WebRequest.Create(UrlRequisicao);
                 req.Method = "GET";
-                req.ContentType = _mediaType + ";charset=" + _charSet;
-                // req.ContentLength = data.Length;
+                req.ContentType = _mediaType + ";charset=" + _charSet;                
                 req.Accept = _mediaType;
                 req.Headers.Add(HttpRequestHeader.AcceptCharset, _charSet);
 
@@ -193,6 +189,7 @@ namespace Deolhonoimposto
             }
             catch (Exception ex)
             {
+                Console.WriteLine("\nMessage ---\n{0}", ex.Message);
                 return novo;
             }
         }
