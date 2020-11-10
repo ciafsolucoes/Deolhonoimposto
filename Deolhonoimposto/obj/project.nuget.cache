@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z7IIjOg2SFt3zDDMGzGwNXdZpMJc8EcRjnBc3qOlyIuEV5MJHKhln/LMORkkUca1hr/yRixZY6uwNHWwcab6xw==",
+  "dgSpecHash": "X7rFIiAEVVPTtI/hv8jnueiBpt2Akse9pY+Cu3qEsENMmS8CtCLFkz0hGBtEfzuh7Fzf3UXGFhZyIR955x1lAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fabio\\source\\repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\Deolhonoimposto.csproj",
+  "projectFilePath": "C:\\Users\\fabio\\Source\\Repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\Deolhonoimposto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fabio\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\fabio\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

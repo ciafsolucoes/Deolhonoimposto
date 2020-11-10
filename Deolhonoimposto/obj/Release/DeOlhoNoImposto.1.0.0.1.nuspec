@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DeOlhoNoImposto</id>
+    <version>1.0.0.1</version>
+    <authors>CiafSolucoes</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>deolhonoimposto.jpg</icon>
+    <projectUrl>https://github.com/ciafsolucoes/Deolhonoimposto</projectUrl>
+    <description>Para atender às exigências da Lei 12.741/12, o IBPT desenvolveu uma solução para possibilitar que todos os estabelecimentos informem a carga tributária em documento fiscal ao consumidor final. E nós do Ciaf Soluções criamos uma API em C# para vocês integrar com sistemas de vocês.</description>
+    <releaseNotes>Seja Bem Vindo na nossa API</releaseNotes>
+    <copyright>Apache-2.0 License</copyright>
+    <tags>deolhonoimposto, empresometro, ibpt, imposto, mercado, documento, fiscal, consumidor, lei, 12.741</tags>
+    <repository url="https://github.com/ciafsolucoes/Deolhonoimposto" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\bin\Release\netstandard2.0\Deolhonoimposto.dll" target="lib\netstandard2.0\Deolhonoimposto.dll" />
+    <file src="C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\deolhonoimposto.jpg" target="deolhonoimposto.jpg" />
+  </files>
+</package>
