@@ -1,0 +1,5 @@
+C:\Users\fabio\source\repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\bin\Debug\netstandard2.0\Deolhonoimposto.deps.json
+C:\Users\fabio\source\repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\bin\Debug\netstandard2.0\Deolhonoimposto.dll
+C:\Users\fabio\source\repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Debug\netstandard2.0\Deolhonoimposto.csprojAssemblyReference.cache
+C:\Users\fabio\source\repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Debug\netstandard2.0\Deolhonoimposto.AssemblyInfoInputs.cache
+C:\Users\fabio\source\repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Debug\netstandard2.0\Deolhonoimposto.AssemblyInfo.cs
