@@ -90,7 +90,7 @@ namespace Deolhonoimposto
             }
         }
 
-        public DeOlhoNoImposto Requisicao(string NCM, string valor, string uf, string ex, string descricao, string unidadeMedida)
+        public DeOlhoNoImposto ConsultarProduto(string NCM, string valor, string uf, string ex, string descricao, string unidadeMedida)
         {
             DeOlhoNoImposto novo = new DeOlhoNoImposto(cnpj, token);
             try
