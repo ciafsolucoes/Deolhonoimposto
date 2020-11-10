@@ -1,9 +1,8 @@
-C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\bin\Release\netstandard2.0\Deolhonoimposto.deps.json
-C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\bin\Release\netstandard2.0\Deolhonoimposto.dll
-C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\bin\Release\netstandard2.0\Deolhonoimposto.pdb
-C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Release\netstandard2.0\Deolhonoimposto.csprojAssemblyReference.cache
 C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Release\netstandard2.0\Deolhonoimposto.AssemblyInfoInputs.cache
 C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Release\netstandard2.0\Deolhonoimposto.AssemblyInfo.cs
 C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Release\netstandard2.0\Deolhonoimposto.csproj.CoreCompileInputs.cache
-C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Release\netstandard2.0\Deolhonoimposto.dll
-C:\Users\fabio\Source\Repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Release\netstandard2.0\Deolhonoimposto.pdb
+C:\Users\fabio\source\repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\bin\Release\netstandard2.0\Deolhonoimposto.deps.json
+C:\Users\fabio\source\repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\bin\Release\netstandard2.0\Deolhonoimposto.dll
+C:\Users\fabio\source\repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\bin\Release\netstandard2.0\Deolhonoimposto.pdb
+C:\Users\fabio\source\repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Release\netstandard2.0\Deolhonoimposto.dll
+C:\Users\fabio\source\repos\ciafsolucoes\Deolhonoimposto\Deolhonoimposto\obj\Release\netstandard2.0\Deolhonoimposto.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabio\\Source\\Repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\Deolhonoimposto.csproj": {}
+    "C:\\Users\\fabio\\source\\repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\Deolhonoimposto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabio\\Source\\Repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\Deolhonoimposto.csproj": {
-      "version": "1.0.0.1",
+    "C:\\Users\\fabio\\source\\repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\Deolhonoimposto.csproj": {
+      "version": "1.0.0.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabio\\Source\\Repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\Deolhonoimposto.csproj",
+        "projectUniqueName": "C:\\Users\\fabio\\source\\repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\Deolhonoimposto.csproj",
         "projectName": "DeOlhoNoImposto",
-        "projectPath": "C:\\Users\\fabio\\Source\\Repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\Deolhonoimposto.csproj",
+        "projectPath": "C:\\Users\\fabio\\source\\repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\Deolhonoimposto.csproj",
         "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabio\\Source\\Repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\obj\\",
+        "outputPath": "C:\\Users\\fabio\\source\\repos\\ciafsolucoes\\Deolhonoimposto\\Deolhonoimposto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/ciafsolucoes/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {

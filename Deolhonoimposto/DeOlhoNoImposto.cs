@@ -86,6 +86,7 @@ namespace Deolhonoimposto
             }
             catch (Exception ex)
             {
+                Console.WriteLine("\nMessage ---\n{0}", ex.Message);
                 return vlaproxtrib;
             }
         }
@@ -141,9 +142,9 @@ namespace Deolhonoimposto
                 }
                 return novo;
             }
-            catch (Exception)
+            catch (Exception erro)
             {
-                Console.WriteLine("\nMessage ---\n{0}", ex.Message);
+                Console.WriteLine("\nMessage ---\n{0}", erro.Message);
                 return novo;
             }
         }

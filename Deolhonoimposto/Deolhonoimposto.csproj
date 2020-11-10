@@ -13,8 +13,8 @@
     <RepositoryUrl>https://github.com/ciafsolucoes/Deolhonoimposto</RepositoryUrl>
     <PackageTags>deolhonoimposto, empresometro, ibpt, imposto, mercado, documento, fiscal, consumidor, lei, 12.741</PackageTags>
     <NeutralLanguage>pt-BR</NeutralLanguage>
-    <Version>1.0.0.1</Version>
-    <PackageReleaseNotes>Seja Bem Vindo na nossa API</PackageReleaseNotes>
+    <Version>1.0.0.2</Version>
+    <PackageReleaseNotes>Seja Bem Vindo na nossa API, ajuste de CNPJ E GTIN</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
